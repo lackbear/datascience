@@ -8,11 +8,11 @@ This project proposes a computer vision based AI system to check whether social 
 
 ### Results
 
- ![](Result.gif)
+  ![](demo social distancing.gif)
  
 As we can see, the system identifies the people in the frame and puts light green, dark red or orange bounding boxes if they are safe (No risk), at High risk or at low risk level respectively. The connecting lines among the persons shows the level of closenes among people (Red shows very close and yellow shows close). After detecting the person, the system also detects the face and identify whether the person is masked or not by putting Green or Red bounding box. Status is shown in a bar at the bottom, showing all the details.These are pretty decent results considering the complexity of the problem we have at our hands.
  
- ![](demo social distancing.mp4)
+
 
 # Project Overview
 Our AI Compliance consists of state-of-the-Art Social Distancing Monitoring coupled with Mask detection system to check whether the norms are followed or not. This project aims at monitoring people violating Social Distancing over video footage coming from CCTV Cameras in train stations. Uses YOLOv3-spp for detecting persons along with social distancing analyser tool simulated with 3D depth factor based on the camera position and orientation for recognizing potential intruders. Dual Shot Face Detector s used for detecting faces and A Face Mask Classifier model (ResNet50) is trained and deployed for identifying people not wearing a face mask.
