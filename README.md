@@ -8,7 +8,7 @@ This project proposes a computer vision based AI system to check whether social 
 
 ### Results
 
-  ![](demo social distancing.gif)
+  ![](demo-social-distancing.gif)
  
 As we can see, the system identifies the people in the frame and puts light green, dark red or orange bounding boxes if they are safe (No risk), at High risk or at low risk level respectively. The connecting lines among the persons shows the level of closenes among people (Red shows very close and yellow shows close). After detecting the person, the system also detects the face and identify whether the person is masked or not by putting Green or Red bounding box. Status is shown in a bar at the bottom, showing all the details.These are pretty decent results considering the complexity of the problem we have at our hands.
  
